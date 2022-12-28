@@ -1,0 +1,22 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.kopi {
+    transform: rotate(-23.28deg);
+}
+
+.judul {
+    font-size: 60px;
+}
+
+@media (max-width: 768px) {
+    .judul {
+        font-size: 50px;
+    }
+}
